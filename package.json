@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/andrewsokolov/fizzbuzz",
   "devDependencies": {
+    "coveralls": "^2.11.2",
     "istanbul": "^0.3.6",
     "mocha": "^2.1.0"
   }
