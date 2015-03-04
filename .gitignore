@@ -1,0 +1,2 @@
+node_modules/istanbul node_modules/mocha
+coverage/coverage.json coverage/lcov-report coverage/lcov.info
