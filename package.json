@@ -1,0 +1,24 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/*",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewsokolov/fizzbuzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewsokolov/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/andrewsokolov/fizzbuzz",
+  "devDependencies": {
+    "istanbul": "^0.3.6",
+    "mocha": "^2.1.0"
+  }
+}
